@@ -4,6 +4,8 @@
 
 ## 推荐：从 Blueprint 创建
 
+可直接点击[一键部署到 Render](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FL0ve-ing%2FMistForest-Web%2Ftree%2Fcodex%2Frender-deploy-20261104)，使用预设的免费配置。
+
 在 Render 控制台选择 New → Blueprint，连接 GitHub 私有仓库 `MistForest-Web`，选择分支 `codex/render-deploy-20261104`，使用仓库根目录的 `render.yaml`。
 
 配置为新加坡区域、Free 套餐、单实例、最多 4 个房间，健康检查地址 `/api/health`。提交前确认仍是 Free，且没有添加付费资源。若连接私有仓库需要 GitHub 授权，由仓库所有者在页面完成。
@@ -41,5 +43,6 @@
 - 当前架构必须保持单实例，同一房间由同一个服务进程维护。直接横向扩容会造成房间无法互通。
 - 免费配置的 4 房间上限是保守的初始限制，并非容量测试结论；国内网络访问速度仍需实测。
 - 后续升级付费实例可以减少休眠影响，不能代替对局持久恢复功能。
+- `autoDeployTrigger: off` 关闭后续代码推送的自动部署；更新时需在 Render 手动触发部署，避免每次推送都打断对局。
 
 参考：[Render Web Services](https://render.com/docs/web-services)、[Docker 部署](https://render.com/docs/docker)、[Blueprint 配置](https://render.com/docs/blueprint-spec)、[免费版限制](https://render.com/docs/free)。

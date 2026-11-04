@@ -1,5 +1,9 @@
 # 雾隐之森网页版 · 1.1.8-web.1
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FL0ve-ing%2FMistForest-Web%2Ftree%2Fcodex%2Frender-deploy-20261104)
+
+点击上方按钮，可按免费套餐创建试运行服务；部署成功后使用 Render 分配的 HTTPS 地址游玩。此入口本身不会代表服务已经上线。配置关闭了后续代码推送的自动部署，需要更新时在 Render 主动执行部署，以减少进行中对局因更新中断。
+
 GitHub 仓库名称：`MistForest-Web`。根目录的 `render.yaml` 提供 Render 免费试运行配置：Docker、新加坡区域、单实例、最多 4 个房间。可在 Render 连接本仓库的 `codex/render-deploy-20261104` 分支，按 [Render 部署说明](docs/Render部署.md) 创建服务。首次公网部署与手机跨网络联机仍需实际验证。
 
 基于原版 v1.1.8 和精简候选 `5398741` 的独立本地开发版本。网页重建界面与房间接入，复用原 C++ 裁判和美术；原生 Windows 游戏源码仍保留，未修改规则核心。
