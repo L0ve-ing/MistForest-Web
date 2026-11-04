@@ -1,0 +1,7 @@
+**/build-windows/
+**/*.exe
+build*/
+runtime/
+node_modules/
+.env
+.env.local

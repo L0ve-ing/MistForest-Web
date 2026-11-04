@@ -1,0 +1,185 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-17",
+  "assets": [
+    {
+      "resource": 2200,
+      "file": "approved-keyframes.png",
+      "width": 1448,
+      "height": 1086,
+      "columns": 4,
+      "rows": 3,
+      "styles": [
+        "Cross",
+        "SwordStab",
+        "RosePlant"
+      ],
+      "prompt": null,
+      "sha256": "0051bd810ec5cf33dc36a76a45ae453f1baace507a23b804878120245b5816be",
+      "source_sha256": "9f2d729dd1a3d582d459b8c70d110fb5d816c977a9bfa49f29a88ba098b0cb12"
+    },
+    {
+      "resource": 2201,
+      "file": "role-melee-keyframes.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "styles": [
+        "ShadowCut",
+        "CrimsonClaw",
+        "Claw",
+        "Bite"
+      ],
+      "prompt": "role-melee-prompt.txt",
+      "sha256": "c9ba9037f53849aad1cad3531284fd0a156dfe10a720a17d842cc92634a76485",
+      "source_sha256": "9674ddcf6c5127d9b19baea316c9e2178a88785b2ad02640f4906a513cfbaded"
+    },
+    {
+      "resource": 2202,
+      "file": "role-ranged-keyframes.png",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "styles": [
+        "Snipe",
+        "Shotgun",
+        "Fire",
+        "HeavyCharge"
+      ],
+      "prompt": "role-ranged-prompt.txt",
+      "sha256": "b178164e75cac60ef748042fbd5f71f962d44ef48e0e0c2a0e801896133e6a8c",
+      "source_sha256": "c9130d6695e1e5ff5ab4e0d990dd6a7037e82510506955156d6548fa7af8141e"
+    },
+    {
+      "resource": 2203,
+      "file": "full-core-keyframes.png",
+      "width": 887,
+      "height": 1774,
+      "columns": 4,
+      "rows": 8,
+      "styles": [
+        "Arrow",
+        "ArmigerThrust",
+        "GuardThrust",
+        "KnightHunt",
+        "Silence",
+        "Blood",
+        "SwordThrow",
+        "SwordRecall"
+      ],
+      "prompt": "full-core-prompt.txt",
+      "sha256": "7212ca5f5a132cfe45a8ef367b29464ca3f6d9481cfe0015f0aaa59ecbe8d049",
+      "row_boundaries": [
+        0,
+        208,
+        418,
+        617,
+        840,
+        1060,
+        1299,
+        1511,
+        1774
+      ],
+      "source_sha256": "75812fe16e8358d2317bfabd4b13c260bce21f5de1b80d859b64c6dcce936ddb"
+    },
+    {
+      "resource": 2204,
+      "file": "full-growth-keyframes.png",
+      "width": 887,
+      "height": 1774,
+      "columns": 4,
+      "rows": 8,
+      "styles": [
+        "Advance",
+        "RoseBloom",
+        "Wither",
+        "Petals",
+        "ArmorUp",
+        "ArmorDown",
+        "InkDash",
+        "ShadowDash"
+      ],
+      "prompt": "full-growth-prompt.txt",
+      "sha256": "0fc8f32843322a6ee173f1d40096d57d597f3c74b2af580cbbd11df95a4189c2",
+      "row_boundaries": [
+        0,
+        222,
+        457,
+        672,
+        889,
+        1107,
+        1328,
+        1552,
+        1774
+      ],
+      "source_sha256": "70bb81401ab0df67f737c2fe39a98acb34d860ff2dd61c773fe4082b91ba1ef2"
+    },
+    {
+      "resource": 2205,
+      "file": "full-motion-keyframes.png",
+      "width": 887,
+      "height": 1774,
+      "columns": 4,
+      "rows": 8,
+      "styles": [
+        "ShadowLink",
+        "TransformWolf",
+        "TransformHuman",
+        "KnightLeap",
+        "KnightRetreat",
+        "HeavyPrivateAdvance",
+        "FireStep",
+        "Burn"
+      ],
+      "prompt": "full-motion-prompt.txt",
+      "sha256": "be877038430d21464680d1b4da55107d7d27730b4e240acea37afbaed41abf7d",
+      "row_boundaries": [
+        0,
+        225,
+        450,
+        693,
+        927,
+        1129,
+        1330,
+        1551,
+        1774
+      ],
+      "source_sha256": "7bb13869de2aca98e6fcd8351287ea71a8c5cbddaf90b836548f7719b8107af5"
+    },
+    {
+      "resource": 2206,
+      "file": "full-world-keyframes.png",
+      "width": 887,
+      "height": 1774,
+      "columns": 4,
+      "rows": 8,
+      "styles": [
+        "Build",
+        "Demolish",
+        "Shield",
+        "Health",
+        "Impact",
+        "Lake",
+        "Whirlpool",
+        "Embers"
+      ],
+      "prompt": "full-world-prompt.txt",
+      "sha256": "e777402ee225e4ecf6c5fcddbf0dcfe71e98f6c9cf82f3114c286c4021f11053",
+      "row_boundaries": [
+        0,
+        263,
+        503,
+        739,
+        935,
+        1143,
+        1345,
+        1574,
+        1774
+      ],
+      "source_sha256": "6b0596951567883d1248fe079342d9a4cde3038ae117d9b3a9461125dae2bc6c"
+    }
+  ],
+  "runtime_encoding": "Lossless PNG optimization; dimensions and every RGBA byte preserved"
+}

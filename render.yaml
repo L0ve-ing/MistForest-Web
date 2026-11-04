@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: mistforest-web
+    runtime: docker
+    plan: free
+    region: singapore
+    branch: codex/render-deploy-20261104
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: "10000"
+      - key: MAX_ROOMS
+        value: "4"

@@ -1,0 +1,2560 @@
+{
+  "canvas": [
+    128,
+    128
+  ],
+  "actors": [
+    {
+      "slot": 0,
+      "key": "jin",
+      "folder": "01_烬",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2400,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/jin/idle.png",
+          "source": "01_烬/idle",
+          "source_frames": [
+            {
+              "name": "01_烬\\idle\\idle_01.png",
+              "sha256": "df32dbcd2304de87acd044178d306284426cea23ab1048d64b2c2438e23a4bb0"
+            },
+            {
+              "name": "01_烬\\idle\\idle_02.png",
+              "sha256": "1e34208f364bb147f5ec6596e7cbacc25b242bb4f72ff03d89cfd691a2ed470c"
+            },
+            {
+              "name": "01_烬\\idle\\idle_03.png",
+              "sha256": "a066a148ee3814c9f767c0c63d62d756906acb79abfd3b2d78148b92e1dd5d3e"
+            },
+            {
+              "name": "01_烬\\idle\\idle_04.png",
+              "sha256": "e7a366d4277c836a18ceb74b794ca9e39ad35446167c550e6ac2d087d5835294"
+            },
+            {
+              "name": "01_烬\\idle\\idle_05.png",
+              "sha256": "613e6218c66e71e83534ed9266ca385204992c415c0e516b17c43e5e94197624"
+            },
+            {
+              "name": "01_烬\\idle\\idle_06.png",
+              "sha256": "8604ab28ec1e34acae8339509279d01f31458afc447cbd96d558463283068058"
+            }
+          ],
+          "atlas_sha256": "a16ac3636e9cf79ebf1a8a2dd516d9365696e153f66cd5f799cdde16592d0adb",
+          "render_bounds": [
+            6,
+            40,
+            113,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2401,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/jin/walk.png",
+          "source": "01_烬/walk",
+          "source_frames": [
+            {
+              "name": "01_烬\\walk\\walk_01.png",
+              "sha256": "2c74ae9dd73ecc41be050df46166f89787534429b53ef22059297d24a5df0471"
+            },
+            {
+              "name": "01_烬\\walk\\walk_02.png",
+              "sha256": "581e0ebf168ac0497e2d214b6361990a4cdfa0680beccd50128741fee9d6fdf9"
+            },
+            {
+              "name": "01_烬\\walk\\walk_03.png",
+              "sha256": "4d9999a638ef002104aa0651e9a5f442ef71713b0fbcbc7f0af8e249e740b120"
+            },
+            {
+              "name": "01_烬\\walk\\walk_04.png",
+              "sha256": "1e6310ae7a3a08791977f75f1af0c9f921fe5c837b9e36e95f753cbf0e8ea42d"
+            }
+          ],
+          "atlas_sha256": "0acc11e6845a7dfa7cae447cfdd1c529f0c85ae3bb685cdfb9f11d4fa5e731f5",
+          "render_bounds": [
+            6,
+            41,
+            109,
+            122
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2402,
+          "frames": 16,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 107,
+          "placeholder": false,
+          "atlas": "assets/characters/jin/special.png",
+          "source": "烬_待机16帧_20261019.zip",
+          "source_frames": [
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_01.png",
+              "sha256": "7f2a11537b31a009da584667f99151b4e8d9eba5efe55568049828832b5979dd"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_02.png",
+              "sha256": "6ba20e4fc316f44a32798a5aa8b46394c0d7c378000fc356dd1be357f0e0cc77"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_03.png",
+              "sha256": "205d5eb6a6b91dc2cc41c488a6459039fe1c9e0d45e50d1459b5f5ecb25c2308"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_04.png",
+              "sha256": "40cf397693ea4772c9b1ccaea016f2ebbb60983a00c80d490ae740a0c4b1a3bb"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_05.png",
+              "sha256": "8ec7fb2a9728d269019530b090d723cef53c9c5be82fc6a7100c8c9c06130a7c"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_06.png",
+              "sha256": "ff7c49bce3fa71f75c5eb5cbe3604c118fb9a535d74089a0bce3351e8c40d08c"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_07.png",
+              "sha256": "0a0eb46a123f8bed344f5936fcd7bb67f2734963d02f8058356c79b1c4159f59"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_08.png",
+              "sha256": "c9d3617a9d93992bd69f89dc1c2e97b6ee7f7a27f37ad286db92ae81143a37db"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_09.png",
+              "sha256": "8edc118ea6195649e90bab4023761725242f994659814223b9ed07e61ee6bf73"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_10.png",
+              "sha256": "b38499f9a58a9e818b86e61cbe08b703471ae6ac3e5ff77f37968660d9005d14"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_11.png",
+              "sha256": "7978bf8ffd2ad4dddc538aa399d7ffeb1677bece8778196f0019f198f9e47285"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_12.png",
+              "sha256": "40cf397693ea4772c9b1ccaea016f2ebbb60983a00c80d490ae740a0c4b1a3bb"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_13.png",
+              "sha256": "233a55a19a805933687f408ee4374dd4661067b905fd8cf28c300306f07aa713"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_14.png",
+              "sha256": "4f7995c6708d0e07a0cf71e8a5fb09070d8a490ff5aaf60957da3586faaf4739"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_15.png",
+              "sha256": "7cae0cbb3d47d1da9770986151619580708cffc6438be4626f9c7c7eb9c53fc9"
+            },
+            {
+              "name": "烬_待机16帧_20261019/frames_128/idle_side_16.png",
+              "sha256": "12cdb9720eec7ebb283fd0d3bdc00659ba43eadbabe7efc659be160d48a5a6af"
+            }
+          ],
+          "atlas_sha256": "a77668971baebcdb0ec5251d0847e4d26f984d698308f4b841b8331f47cae0b3",
+          "render_bounds": [
+            5,
+            23,
+            123,
+            121
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        23,
+        123,
+        122
+      ]
+    },
+    {
+      "slot": 1,
+      "key": "wolf",
+      "folder": "02_座狼",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2403,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/wolf/idle.png",
+          "source": "02_座狼/idle",
+          "source_frames": [
+            {
+              "name": "02_座狼\\idle\\idle_01.png",
+              "sha256": "f8008528d860cef04a3f360499d43aed95986487d13f8ea4d21a6ec4620db714"
+            },
+            {
+              "name": "02_座狼\\idle\\idle_02.png",
+              "sha256": "e9265d5057621231135e86d0b7f7147161078ed78acd040c82faa0cec329f8e3"
+            },
+            {
+              "name": "02_座狼\\idle\\idle_03.png",
+              "sha256": "e6f3c94a8fe8b0ff6c6573fd835ed2e158a2dd327acf7808b07f246a306b8dd2"
+            },
+            {
+              "name": "02_座狼\\idle\\idle_04.png",
+              "sha256": "6bba232945ba60b3ad27f06f316ed1736f56ad3d01c81be973a9e355a1f12af2"
+            },
+            {
+              "name": "02_座狼\\idle\\idle_05.png",
+              "sha256": "18cdb4b3f569b569fe883612eb7efcdfceb733bfa7376828abeffa05245bf881"
+            },
+            {
+              "name": "02_座狼\\idle\\idle_06.png",
+              "sha256": "733c41792d4e6d076af146107af4589afee30f9b7bbb3c101bae6e01151cd77b"
+            }
+          ],
+          "atlas_sha256": "f4cb5de9c9e927d13b97ce92f0b87dc1e5e39a3691fbe6ccfb8639a18bcdfe52",
+          "render_bounds": [
+            5,
+            29,
+            111,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2404,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/wolf/walk.png",
+          "source": "02_座狼/walk",
+          "source_frames": [
+            {
+              "name": "02_座狼\\walk\\walk_01.png",
+              "sha256": "2ea18d589c4cfed1bd50c0e03625683fdb990d1fe3ccab9ef19d9693925ac365"
+            },
+            {
+              "name": "02_座狼\\walk\\walk_02.png",
+              "sha256": "c7fdb4c6f22a62618f539f48e8d16378c4e41f714e270986002bad401d5e10cb"
+            },
+            {
+              "name": "02_座狼\\walk\\walk_03.png",
+              "sha256": "721a5d2aa3ec973aab34d315b2f7768bab42df4154d9a5f7d1f63d918e1016f0"
+            },
+            {
+              "name": "02_座狼\\walk\\walk_04.png",
+              "sha256": "92202af955427f01081996ffe02e3bc2344efbc3533c501553157f1ee56c8cce"
+            }
+          ],
+          "atlas_sha256": "e9563b7c11be9830409629ed17a2bd03135f7e3ae33e2a34ccec23b13fc03626",
+          "render_bounds": [
+            7,
+            27,
+            123,
+            121
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2405,
+          "frames": 8,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/wolf/special.png",
+          "source": "座狼_怒吼8帧_20261026.zip",
+          "source_frames": [
+            {
+              "name": "座狼_怒吼8帧_20261026/frames_128/idle_01.png",
+              "sha256": "b6a9f34edb479a1de2a291235b628c92bf78f5081fb40d7a6853cfd35be1dc94"
+            },
+            {
+              "name": "座狼_怒吼8帧_20261026/frames_128/idle_02.png",
+              "sha256": "d0b08227ae1b712063b04ffb0356f01430260fbca88cb8475c11040e5335b535"
+            },
+            {
+              "name": "座狼_怒吼8帧_20261026/frames_128/idle_03.png",
+              "sha256": "0211c33461cf8b33c25a3118696448cc839494775e052d369696ea0e3e58d324"
+            },
+            {
+              "name": "座狼_怒吼8帧_20261026/frames_128/idle_04.png",
+              "sha256": "87c18058fc62ff9f5d4ff8f3fa8957fab62b5c0186e196c09e029d1e10ec3e58"
+            },
+            {
+              "name": "座狼_怒吼8帧_20261026/frames_128/idle_05.png",
+              "sha256": "1a43e1183787ffb750b45a5d23bcb9a93dbb97d9ab1ca607a0c4ebf5a1567a0a"
+            },
+            {
+              "name": "座狼_怒吼8帧_20261026/frames_128/idle_06.png",
+              "sha256": "5ae68c0aa6faa3c94e141f32cb91dc5025ee5272087c648b71910e08b0c53f99"
+            },
+            {
+              "name": "座狼_怒吼8帧_20261026/frames_128/idle_07.png",
+              "sha256": "49a7cda9e65dfd3aced6c1da613b1236d350d57cc78462b47b3c47a113519ecd"
+            },
+            {
+              "name": "座狼_怒吼8帧_20261026/frames_128/idle_08.png",
+              "sha256": "065d58b4b7eafccd5def8ed59f064b0974d72c1d149ebe477c64e1befea2db37"
+            }
+          ],
+          "atlas_sha256": "24e9f86e30f734e6f9515ff1469ec196e7f0652cf014babd483e6480bb70827b",
+          "render_bounds": [
+            6,
+            27,
+            110,
+            121
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        27,
+        123,
+        121
+      ]
+    },
+    {
+      "slot": 2,
+      "key": "ink",
+      "folder": "03_白墨",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2406,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/ink/idle.png",
+          "source": "03_白墨/idle",
+          "source_frames": [
+            {
+              "name": "03_白墨\\idle\\idle_01.png",
+              "sha256": "871088813317cb8a8809fce3986ffe99ca55f78052989bba0b3079da9cad3318"
+            },
+            {
+              "name": "03_白墨\\idle\\idle_02.png",
+              "sha256": "be60cd4a05df226ab11e066297c8e0e4449f4b05c779bda4ae550c4a9bdb07b6"
+            },
+            {
+              "name": "03_白墨\\idle\\idle_03.png",
+              "sha256": "45fe0e89097bab647e624aef70a2500e9ae0fea4d3f18d6d4b3d271de6b8b91d"
+            },
+            {
+              "name": "03_白墨\\idle\\idle_04.png",
+              "sha256": "65a5a6bbd0462ad6ec85636cf6522aac60f091eaba63db4ab4a5be17599a8dad"
+            },
+            {
+              "name": "03_白墨\\idle\\idle_05.png",
+              "sha256": "2dc07252b9c0cad0edddf03b9bf44aff7067e692dded70e50a37cc2ee2295cf8"
+            },
+            {
+              "name": "03_白墨\\idle\\idle_06.png",
+              "sha256": "b403fbb2cee641ac96b85cf6107328a0e4fc367ac1e78e23b2555aa78ee82dfc"
+            }
+          ],
+          "atlas_sha256": "0753bc19b8456a4ea47d78c05348b410b26d354a25e99caf6e89b9928e76c17b",
+          "render_bounds": [
+            6,
+            21,
+            104,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2407,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/ink/walk.png",
+          "source": "03_白墨/walk",
+          "source_frames": [
+            {
+              "name": "03_白墨\\walk\\walk_01.png",
+              "sha256": "e1b2057eb88d8bd92881dfbb3d0ce1f31912cb6a9dcc79a945191915e33f13aa"
+            },
+            {
+              "name": "03_白墨\\walk\\walk_02.png",
+              "sha256": "1c26e3bf521f4eed4882fe06232e54bea3e30d33f36be7938ca75fdb529fa04c"
+            },
+            {
+              "name": "03_白墨\\walk\\walk_03.png",
+              "sha256": "deedc3bcb08e2ef7905c694d2217e201752e9f3c09ebb647e701fb7c4ccfe016"
+            },
+            {
+              "name": "03_白墨\\walk\\walk_04.png",
+              "sha256": "ac91e36e563deafe0865fd14cb72b7a0ac81a3daf169cf0aaf7076e775f09f8d"
+            }
+          ],
+          "atlas_sha256": "bb80c3edf14eb21a17136ab16930902a8967fd7e20ebe59c47daa98846283403",
+          "render_bounds": [
+            5,
+            22,
+            105,
+            122
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2408,
+          "frames": 16,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/ink/special.png",
+          "source": "白墨_绿影太空步16帧_20261026.zip",
+          "source_frames": [
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_01.png",
+              "sha256": "63394cde9e95cb28c2fb6f0c7574337271a0a51cb93a029aafde0b923a52d596"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_02.png",
+              "sha256": "c569016c1e1e51e96515a5eff8b2146dfa106c1d4a9195e43eed60aea8c56be9"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_03.png",
+              "sha256": "9ab3da64c332408deae79d9bec2a5a2a94fcae35baf26affc67348db857d1a76"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_04.png",
+              "sha256": "c789aae10c156fd66dfa76878721cc08db71bd9ad841ab3393bb93baf578aa52"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_05.png",
+              "sha256": "37f820f7128ec5d4b960642b7c582bbb6961630b959b78c6ed65484042b86e8b"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_06.png",
+              "sha256": "b600c44e8808b79b6810418b51a93ed7631be1bc42f106fe8d124ffec6e7f8f2"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_07.png",
+              "sha256": "1831d5f410513c422b4a89b2d2e16eabd13f7b1739f8b54bd891c0af6a71dfe9"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_08.png",
+              "sha256": "64be74ddf1b934d9b3aca0d2171632648e5cb7775726fa7ccda7f9ec444779e8"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_09.png",
+              "sha256": "4b4a6faa5d25f8a76f3e5f4f7388a7f321afe7602bad9fdd623a3d63fbbf3a9b"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_10.png",
+              "sha256": "93f7e586c183b5b69f05e608c1c4ebcdf566339e6e079e194a7ede1e1b3820ac"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_11.png",
+              "sha256": "752aded0a0e6bb0de41a470f2092619830551f75297597d186ba461afc08bad3"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_12.png",
+              "sha256": "a79bbc97a14d517c3bbc7438fc2a49d26b9107b1f1ca55563dc4ea5aa0ce8a6e"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_13.png",
+              "sha256": "55d12711cd6acac57ebbdbb0c03e8ab0f451be5a6f63f8f62575859562ea6bb7"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_14.png",
+              "sha256": "c84f7a7bda36cc2b71bacd35423377dfac35d696791776a61a929a2bbd273c46"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_15.png",
+              "sha256": "822d8a4ab17f984eafabc72e9473b6fa6876d65de8123ec5239dbfebbc2b3bc5"
+            },
+            {
+              "name": "白墨_绿影太空步16帧_20261026/frames_128/idle_16.png",
+              "sha256": "1950a2fc7dd1d58ac1880e18a72a5a9af551c2357766e28cd8ee9037fa080b75"
+            }
+          ],
+          "atlas_sha256": "d83ea4bad043e23a95ac715c2a417946aa77d03bc77c95587e838ec0301edb61",
+          "render_bounds": [
+            2,
+            17,
+            121,
+            126
+          ]
+        }
+      ],
+      "render_bounds": [
+        2,
+        17,
+        121,
+        126
+      ]
+    },
+    {
+      "slot": 3,
+      "key": "shadow",
+      "folder": "04_随影",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2409,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/shadow/idle.png",
+          "source": "04_随影/idle",
+          "source_frames": [
+            {
+              "name": "04_随影\\idle\\idle_01.png",
+              "sha256": "8e6cb9d8a8f09f558094677fa87e8dd1d942b38b0ef65f2244b5207783e2e2a6"
+            },
+            {
+              "name": "04_随影\\idle\\idle_02.png",
+              "sha256": "1ab4535b3353b4f196845bf3ef26e7ab2dad3a411d253d709f113bfa10353b7a"
+            },
+            {
+              "name": "04_随影\\idle\\idle_03.png",
+              "sha256": "d893f6e322edcddac08d969d92e929c566324cd1a9a367e7c737bac26fa7c981"
+            },
+            {
+              "name": "04_随影\\idle\\idle_04.png",
+              "sha256": "5c77599627a31f3fd61d3b5a907e686247294960d384e6e3683904b030b0697a"
+            },
+            {
+              "name": "04_随影\\idle\\idle_05.png",
+              "sha256": "637e1a1fa665fde50b8440445283e5fe52159bff1d058026096a3b181f90f17a"
+            },
+            {
+              "name": "04_随影\\idle\\idle_06.png",
+              "sha256": "b97bae379a374483469f7fff265d22e277f90d26e338ad3c6248fe4598e14e95"
+            }
+          ],
+          "atlas_sha256": "6f76a023c193e8cb7d0434b55fdf0ff3491a91ec3d21d416b221919efb0b11e5",
+          "render_bounds": [
+            5,
+            31,
+            123,
+            122
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2410,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/shadow/walk.png",
+          "source": "04_随影/walk",
+          "source_frames": [
+            {
+              "name": "04_随影\\walk\\walk_01.png",
+              "sha256": "704068b34be90041c0ea7ad7df8d60922c9a9ddba9aee9554dde3bdd55e21483"
+            },
+            {
+              "name": "04_随影\\walk\\walk_02.png",
+              "sha256": "218ea4cb7385fe0b078fdd64ae20e8eb2edf8b88258f0b84fc5e84af928d112a"
+            },
+            {
+              "name": "04_随影\\walk\\walk_03.png",
+              "sha256": "11934b5b8bb696cff59003f74ef204edc9384752331f0b3021575585bd66d28d"
+            },
+            {
+              "name": "04_随影\\walk\\walk_04.png",
+              "sha256": "17982940c80fc71c2016bc476bcfd2f05cbfdb4201fd393bcb8025143e23d223"
+            }
+          ],
+          "atlas_sha256": "0a3c00df8a47ebd32012f67f6960b68a6dac0e804dabc7b986ad811aa4694cdf",
+          "render_bounds": [
+            15,
+            35,
+            118,
+            122
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2411,
+          "frames": 16,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 105,
+          "placeholder": false,
+          "atlas": "assets/characters/shadow/special.png",
+          "source": "随影_待机特效16帧_20261020_修订3.zip",
+          "source_frames": [
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_01.png",
+              "sha256": "4bfdc5f67f8145d8529385ae16badb65caabd627244bd5f09e765d8b2de73e78"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_02.png",
+              "sha256": "7b6f938f234c767c436b5e2cb66c2990f9c7a37f2cde23e5bb91b69b111ab619"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_03.png",
+              "sha256": "24c785617ee23cbf9ba3ec22660a5d416f998e982a239124247ece999c83d63f"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_04.png",
+              "sha256": "4419d241bbf5a78fa50b3b4801e9e14694df0f086c67ce9ba368ec84915dff90"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_05.png",
+              "sha256": "daf74bdfa1f16e7139535f1db5ee27cf983f4d8b0b219e45e55c09c0560a8180"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_06.png",
+              "sha256": "39640d99f3ec7380f22f173ca0abf78a2b979d0e649cf7d25be2e0b825a5716b"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_07.png",
+              "sha256": "aafbe78b07d59540e4415fb5c54084633668a8f956fd3e8ef64efb0d287ffd4a"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_08.png",
+              "sha256": "8391399957c26566db9c15a3bff1dd0c6c6344d38e5317c2220472c69dbda626"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_09.png",
+              "sha256": "fd00e643e49f79765ac3a62a9e3699fb213f1263b81a5bf60c524f0d280766d0"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_10.png",
+              "sha256": "a982e9fdef4e247e6d819356215dd24a420a7e5a4d7e9ef2ab6d458448e812af"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_11.png",
+              "sha256": "fb92daaa6c4ae8f42c310f74abbd726b4d088613f2e0a398d2640d426a0b684f"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_12.png",
+              "sha256": "a4643074bb4ecf79ebdb906150574350935a0255784ac319ee54b6f9bf0959a8"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_13.png",
+              "sha256": "c75041ef9f880c377481475da7f4c8d184415750f3589de23e454f9606341113"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_14.png",
+              "sha256": "8c4e7b553002f1444e853ac7eed3c7c848971efb8f03fb5499c867c70fae88d6"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_15.png",
+              "sha256": "61eb72bc9b25b581c8b484afb35423da62a2ac9214e98b565e8805937f4561c5"
+            },
+            {
+              "name": "随影_待机特效16帧_20261020_修订3/frames_128/idle_side_16.png",
+              "sha256": "4419d241bbf5a78fa50b3b4801e9e14694df0f086c67ce9ba368ec84915dff90"
+            }
+          ],
+          "atlas_sha256": "cda6af667d7546536e0756cb1664d0c420e3520c33708aae112fe4acedf0cbc0",
+          "render_bounds": [
+            7,
+            35,
+            121,
+            132
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        31,
+        123,
+        132
+      ]
+    },
+    {
+      "slot": 4,
+      "key": "heavy",
+      "folder": "05_重骑",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2412,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/heavy/idle.png",
+          "source": "05_重骑/idle",
+          "source_frames": [
+            {
+              "name": "05_重骑\\idle\\idle_01.png",
+              "sha256": "2575635aa965bc1f09c50bb16db65a124d092b7449414baa74bdd08d9e94761e"
+            },
+            {
+              "name": "05_重骑\\idle\\idle_02.png",
+              "sha256": "ee35ecb8a61373737509497aeb8feaf45e6159548c1432a9cb4843c5918b8242"
+            },
+            {
+              "name": "05_重骑\\idle\\idle_03.png",
+              "sha256": "e923b4185b98b2d3587db6ba9d027bfb0573428b2d620e0d482a6f2c821016aa"
+            },
+            {
+              "name": "05_重骑\\idle\\idle_04.png",
+              "sha256": "d263c67742799c1f0c617de1bd1f190eb2b47a630b3b0b70ec6faecd8645c377"
+            },
+            {
+              "name": "05_重骑\\idle\\idle_05.png",
+              "sha256": "9bcb80d80bf4ab10182cea815cb9eb2d1c1bc4bfb181790a85743db728845d61"
+            },
+            {
+              "name": "05_重骑\\idle\\idle_06.png",
+              "sha256": "faf5f3619888dd7c2981afc55804a8b991b3c7f4f6881a86a1cc0ae89cf80645"
+            }
+          ],
+          "atlas_sha256": "f22060c9634a3f4f893650baf9381c7491440b99cfb306d99cb8eb312e4b2409",
+          "render_bounds": [
+            5,
+            25,
+            113,
+            122
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2413,
+          "frames": 4,
+          "durations_ms": [
+            220,
+            220,
+            220,
+            220
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/heavy/walk.png",
+          "source": "05_重骑/walk",
+          "source_frames": [
+            {
+              "name": "05_重骑\\walk\\walk_01.png",
+              "sha256": "9a90f2ae961b56d3c242f43175b94cea32ca3e3526393b53ef98bc1c8b125c81"
+            },
+            {
+              "name": "05_重骑\\walk\\walk_02.png",
+              "sha256": "d2b61e2ffcb51cb9df272d07e2a0bb47aeb979bef39221b65b89de184de9110b"
+            },
+            {
+              "name": "05_重骑\\walk\\walk_03.png",
+              "sha256": "236229f4c9ff85510d5293552779a7d99c0b86910589ba6f5b2e22d1b10c9493"
+            },
+            {
+              "name": "05_重骑\\walk\\walk_04.png",
+              "sha256": "aab26ca9750825cdcf2180e0a68cc52134b8c50cad33f8d80d23ad0a3709ac1e"
+            }
+          ],
+          "atlas_sha256": "8160c4b2467c033dfea95f6b209e352a6471b1fc1e19016e3f7c3f2ce1778009",
+          "render_bounds": [
+            8,
+            25,
+            122,
+            121
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2414,
+          "frames": 12,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/heavy/special.png",
+          "source": "重骑_下倾刺地12帧_20261021.zip",
+          "source_frames": [
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_01.png",
+              "sha256": "a6946047ccc950dbcc5ce56337e30ebcd0001fe7cfd18bf3a6e543f8e76e9b92"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_02.png",
+              "sha256": "6373d7f1f15b28ded8e00ea1b141dee021e001d6b2b5d44187b94f6993ebae3a"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_03.png",
+              "sha256": "9d4da79ba919c8718bbe8e5b3b370dfda8213c20d6f8ee5cf10e59cb2486bd15"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_04.png",
+              "sha256": "70f5ce67533c98c998aa6d2130d289589fa8ebdd17ebc6f09941e31b868ef6bc"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_05.png",
+              "sha256": "53bf3ad31445692eb957d579927cc0c6462056ae13723b1bd229eb3c07042628"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_06.png",
+              "sha256": "381bfcc697abd87009315c49fd939cb64124d0b6f56a4168d6a443ce020c112d"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_07.png",
+              "sha256": "0287a2fcdeb2ee4f18d1b271ba3fb81961a51bfbcf2a4ae630564a347364f3d0"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_08.png",
+              "sha256": "982cbef0d24303b9e633cf7cbe9a4bbdc95792f09d298172dceab3f169cfe799"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_09.png",
+              "sha256": "66051ed24b9e62a44815e352c3ed98b6349fb7b5c8c8f7815251c9b9d1bc1554"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_10.png",
+              "sha256": "95bf620011055f3ad1092becb1a91787e30d3fb6112b95c745528b454d342f5f"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_11.png",
+              "sha256": "44524da33116ee037d47df8a273ff7c2dec1d24faa84f47a9178a8396b0f3719"
+            },
+            {
+              "name": "重骑_下倾刺地12帧_20261021/frames_128/idle_12.png",
+              "sha256": "aac1a67980ce9c1b7872242d09f1bec6b629b769280ce8af767ff206e4171546"
+            }
+          ],
+          "atlas_sha256": "b8d482e00f6e607990c96e245a353554aba0e3fcd81f52dd11322d4dfe53cc92",
+          "render_bounds": [
+            6,
+            25,
+            120,
+            123
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        25,
+        122,
+        123
+      ]
+    },
+    {
+      "slot": 5,
+      "key": "hidden-wolf",
+      "folder": "07_隐狼·狼形",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2415,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/hidden-wolf/idle.png",
+          "source": "07_隐狼·狼形/idle",
+          "source_frames": [
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_01.png",
+              "sha256": "aa5eb2ecb3c676880f9358c2480ffc5a38fcfc1455d6490edc515be0dc912395"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_02.png",
+              "sha256": "e0954f44655372dae6a54e87e63f98185143e6604a75f76f2e183eec50827a09"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_03.png",
+              "sha256": "6f07d9b2ddb6bc6ccdd5fb3485fae8aeb942d84df0b075a49386b02462e9ee69"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_04.png",
+              "sha256": "02043d204364f975310d53936ac29e48a5cf7e58de4612ad013d990b1fda5bbc"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_05.png",
+              "sha256": "1ad03e63e66d6812f0d65bc6acf03231edce684be62fa4a10b326dc9f67bfcfd"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_06.png",
+              "sha256": "90f99ff039b27de3e1b41ee7eb4690a714af95441b4938ca35a54a0e4ebfb906"
+            }
+          ],
+          "atlas_sha256": "f8afa31968a5188b15d8043c6ca40f23237048cc442db48998167e593881117f",
+          "render_bounds": [
+            5,
+            22,
+            117,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2416,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/hidden-wolf/walk.png",
+          "source": "07_隐狼·狼形/walk",
+          "source_frames": [
+            {
+              "name": "07_隐狼·狼形\\walk\\walk_01.png",
+              "sha256": "8043560786588110991e856b440ef1db7a335ca7f711eb5737e3d573b211d0fb"
+            },
+            {
+              "name": "07_隐狼·狼形\\walk\\walk_02.png",
+              "sha256": "419933d9bf7f4a576d4a9e4795fc191d063ccd7db2b589bd977f3fd7eda2b59b"
+            },
+            {
+              "name": "07_隐狼·狼形\\walk\\walk_03.png",
+              "sha256": "38735266486923a9759d6128cbcd9ef2213bc6c6338497885eda40d4a9d837f8"
+            },
+            {
+              "name": "07_隐狼·狼形\\walk\\walk_04.png",
+              "sha256": "596a3cfa029c2c9ff317e479aef1c52ccd04b108be725206851d878b2e6582ca"
+            }
+          ],
+          "atlas_sha256": "6cd3de308c03dd1aa1b0d0f58104c24fff0d1ed0fd9f898e1fb0b4e812f75ac7",
+          "render_bounds": [
+            6,
+            22,
+            111,
+            122
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2415,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": true,
+          "atlas": "assets/characters/hidden-wolf/idle.png",
+          "source": "idle placeholder",
+          "source_frames": [
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_01.png",
+              "sha256": "aa5eb2ecb3c676880f9358c2480ffc5a38fcfc1455d6490edc515be0dc912395"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_02.png",
+              "sha256": "e0954f44655372dae6a54e87e63f98185143e6604a75f76f2e183eec50827a09"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_03.png",
+              "sha256": "6f07d9b2ddb6bc6ccdd5fb3485fae8aeb942d84df0b075a49386b02462e9ee69"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_04.png",
+              "sha256": "02043d204364f975310d53936ac29e48a5cf7e58de4612ad013d990b1fda5bbc"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_05.png",
+              "sha256": "1ad03e63e66d6812f0d65bc6acf03231edce684be62fa4a10b326dc9f67bfcfd"
+            },
+            {
+              "name": "07_隐狼·狼形\\idle\\idle_06.png",
+              "sha256": "90f99ff039b27de3e1b41ee7eb4690a714af95441b4938ca35a54a0e4ebfb906"
+            }
+          ],
+          "atlas_sha256": "f8afa31968a5188b15d8043c6ca40f23237048cc442db48998167e593881117f",
+          "render_bounds": [
+            5,
+            22,
+            117,
+            121
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        22,
+        117,
+        122
+      ]
+    },
+    {
+      "slot": 6,
+      "key": "knight",
+      "folder": "08_骑士",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2418,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/knight/idle.png",
+          "source": "08_骑士/idle",
+          "source_frames": [
+            {
+              "name": "08_骑士\\idle\\idle_01.png",
+              "sha256": "1906d80258ef6f17ba55c00bcdddf4d90e25fa9787e572f99889c4525738a833"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_02.png",
+              "sha256": "3df9ba82fca8b35c791831c73fd8327d80af379fbf465a02130ab4e84d65e5f1"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_03.png",
+              "sha256": "ed1cc50f6c9daa0dd4d11b6f177552d62c9f69a218d9c44c1be12cd471a759db"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_04.png",
+              "sha256": "8acca54d04c88176471763a9e4298ee9a63e91933987c7b502f680924a5cd185"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_05.png",
+              "sha256": "5fe2e50b4c29dc945b5f3946ff27225a786b9ef3f66ef046ca77efb58b430f81"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_06.png",
+              "sha256": "598ea99b2e73d3a0501d3914ce938060d08ee975d4ad77f6c9d9ede3f2ad422f"
+            }
+          ],
+          "atlas_sha256": "1898dce97b27901c813fc30238c5d5e2cf1d453807f3228faa2f85d63834c550",
+          "render_bounds": [
+            7,
+            22,
+            118,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2418,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": true,
+          "atlas": "assets/characters/knight/idle.png",
+          "source": "idle placeholder",
+          "source_frames": [
+            {
+              "name": "08_骑士\\idle\\idle_01.png",
+              "sha256": "1906d80258ef6f17ba55c00bcdddf4d90e25fa9787e572f99889c4525738a833"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_02.png",
+              "sha256": "3df9ba82fca8b35c791831c73fd8327d80af379fbf465a02130ab4e84d65e5f1"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_03.png",
+              "sha256": "ed1cc50f6c9daa0dd4d11b6f177552d62c9f69a218d9c44c1be12cd471a759db"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_04.png",
+              "sha256": "8acca54d04c88176471763a9e4298ee9a63e91933987c7b502f680924a5cd185"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_05.png",
+              "sha256": "5fe2e50b4c29dc945b5f3946ff27225a786b9ef3f66ef046ca77efb58b430f81"
+            },
+            {
+              "name": "08_骑士\\idle\\idle_06.png",
+              "sha256": "598ea99b2e73d3a0501d3914ce938060d08ee975d4ad77f6c9d9ede3f2ad422f"
+            }
+          ],
+          "atlas_sha256": "1898dce97b27901c813fc30238c5d5e2cf1d453807f3228faa2f85d63834c550",
+          "render_bounds": [
+            7,
+            22,
+            118,
+            121
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2420,
+          "frames": 8,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/knight/special.png",
+          "source": "骑士_前腿踏空挥剑8帧_20261020.zip",
+          "source_frames": [
+            {
+              "name": "骑士_前腿踏空挥剑8帧_20261020/frames_128/idle_01.png",
+              "sha256": "8fc279c1009825411f8cdbb20e3cf027c23b1036dffcb67ebc8f0f50fc4c1d1e"
+            },
+            {
+              "name": "骑士_前腿踏空挥剑8帧_20261020/frames_128/idle_02.png",
+              "sha256": "ca470fefe714fbc8ef329adb2763c7e5ebd54e0cd29cf6b95fe2a2b43ec6caf3"
+            },
+            {
+              "name": "骑士_前腿踏空挥剑8帧_20261020/frames_128/idle_03.png",
+              "sha256": "e71fde43341d7b7386ca0e15643370ba8802b64addeefc1edb78eb2383faae4a"
+            },
+            {
+              "name": "骑士_前腿踏空挥剑8帧_20261020/frames_128/idle_04.png",
+              "sha256": "8611ed785d541671c7c3c13339b5571ec0868533a7366301c25186445eaff390"
+            },
+            {
+              "name": "骑士_前腿踏空挥剑8帧_20261020/frames_128/idle_05.png",
+              "sha256": "f93480b619e571fce08dee757ed242916198c506802d066d42afd9a3122deba3"
+            },
+            {
+              "name": "骑士_前腿踏空挥剑8帧_20261020/frames_128/idle_06.png",
+              "sha256": "f8b36c7c9b78993a1be6475d5d40f0c594ba73e94378e4ae7c89a88a3f579d4d"
+            },
+            {
+              "name": "骑士_前腿踏空挥剑8帧_20261020/frames_128/idle_07.png",
+              "sha256": "62d025a24571defba1c1d77193dfa931562192385f18cdcd3439bf6820b70a23"
+            },
+            {
+              "name": "骑士_前腿踏空挥剑8帧_20261020/frames_128/idle_08.png",
+              "sha256": "41ad9c3a9412ab039da4ed612fd8722763a1da83e875d305f43d2ae8c85739dc"
+            }
+          ],
+          "atlas_sha256": "b1710f94a7a454cce6c60bfe56085ce2d752c67dc4a495c1b0b44ec3a132e748",
+          "render_bounds": [
+            8,
+            20,
+            120,
+            121
+          ]
+        }
+      ],
+      "render_bounds": [
+        7,
+        20,
+        120,
+        121
+      ]
+    },
+    {
+      "slot": 7,
+      "key": "alpha",
+      "folder": "09_阿尔法",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2421,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/alpha/idle.png",
+          "source": "09_阿尔法/idle",
+          "source_frames": [
+            {
+              "name": "09_阿尔法\\idle\\idle_01.png",
+              "sha256": "e29fa5ce0b056055c3ebc68108cd11ad6bb33d4914aff7926e4b1a4b27b8dd11"
+            },
+            {
+              "name": "09_阿尔法\\idle\\idle_02.png",
+              "sha256": "4642d811af187f4c030e298d4ac0894b93a4a52b6e0eadab0a5dbbe1d5f1eba6"
+            },
+            {
+              "name": "09_阿尔法\\idle\\idle_03.png",
+              "sha256": "ecf6a4c581d9b8a9c92ffa257bf1bb056f383651e3ea4ea5dcdb7df543458204"
+            },
+            {
+              "name": "09_阿尔法\\idle\\idle_04.png",
+              "sha256": "ac4340af0c6ffeef1d54c70da10b1ae631d58788c8cbf84272babc983ec18036"
+            },
+            {
+              "name": "09_阿尔法\\idle\\idle_05.png",
+              "sha256": "7c6d57cb069e6cf1582f24e4239392c5542e1c4ff25e97f73335ccf9248419d2"
+            },
+            {
+              "name": "09_阿尔法\\idle\\idle_06.png",
+              "sha256": "12ba71f55b1d8b2adefb9f3197a93a441109e7017180306574c2c95864d2126f"
+            }
+          ],
+          "atlas_sha256": "6732a3f8fc64b5ed9dce9a658188da89584558d6a63a422cf00f7e7cade59618",
+          "render_bounds": [
+            5,
+            20,
+            119,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2422,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/alpha/walk.png",
+          "source": "09_阿尔法/walk",
+          "source_frames": [
+            {
+              "name": "09_阿尔法\\walk\\walk_01.png",
+              "sha256": "401633050ac7e3353a8e3ff044f0daa8b87d0f0d6cc322d19d9e1df492e0b868"
+            },
+            {
+              "name": "09_阿尔法\\walk\\walk_02.png",
+              "sha256": "873b62f1ebfc29ae5a64bc9104b076e7da4e8cc4354dc6282b80dc71184ee257"
+            },
+            {
+              "name": "09_阿尔法\\walk\\walk_03.png",
+              "sha256": "ee27f88c4f4febd4d2da5b6c7053ed430d146f80a34b4da1d635de927164ccdc"
+            },
+            {
+              "name": "09_阿尔法\\walk\\walk_04.png",
+              "sha256": "b516bd83cfbff7642b37a22ce0eb2445cf9ae1deff5c43e626c3541164349dde"
+            }
+          ],
+          "atlas_sha256": "03db1846be99fc41863cc953e240ee0843dbfea01a77c941fdb62cd2121e460a",
+          "render_bounds": [
+            8,
+            22,
+            115,
+            121
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2423,
+          "frames": 8,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/alpha/special.png",
+          "source": "阿尔法_伏身金瞳8帧_20261023.zip",
+          "source_frames": [
+            {
+              "name": "阿尔法_伏身金瞳8帧_20261023/frames_128/idle_01.png",
+              "sha256": "8013eb448f626c7769eb8242c9ffe44af0d1325a51e3ffc035a0dfae7d833251"
+            },
+            {
+              "name": "阿尔法_伏身金瞳8帧_20261023/frames_128/idle_02.png",
+              "sha256": "d8fd3dc7398a6bf8d16b2d8636c6e47aff3c4e10b5cad6f3ff870f554ca5d3db"
+            },
+            {
+              "name": "阿尔法_伏身金瞳8帧_20261023/frames_128/idle_03.png",
+              "sha256": "21facef5f8fc145b41178f8b39e573d24eab744998d47af08aca21205864bd41"
+            },
+            {
+              "name": "阿尔法_伏身金瞳8帧_20261023/frames_128/idle_04.png",
+              "sha256": "536c1e27d1c2d0754310c5f2e01f4a1d5b539ea99703b775ef31d27c71206406"
+            },
+            {
+              "name": "阿尔法_伏身金瞳8帧_20261023/frames_128/idle_05.png",
+              "sha256": "9ab936367beafc29ff8bf0c60e86e96699bc1ecd8702a86b2dfe2c629a50ffdb"
+            },
+            {
+              "name": "阿尔法_伏身金瞳8帧_20261023/frames_128/idle_06.png",
+              "sha256": "d8fd3dc7398a6bf8d16b2d8636c6e47aff3c4e10b5cad6f3ff870f554ca5d3db"
+            },
+            {
+              "name": "阿尔法_伏身金瞳8帧_20261023/frames_128/idle_07.png",
+              "sha256": "8013eb448f626c7769eb8242c9ffe44af0d1325a51e3ffc035a0dfae7d833251"
+            },
+            {
+              "name": "阿尔法_伏身金瞳8帧_20261023/frames_128/idle_08.png",
+              "sha256": "05342e1e3d2f3013a0d02b2ce2acb73650d45318a1815a53131ae1d27be70970"
+            }
+          ],
+          "atlas_sha256": "0742a346fc2a2a9383c99d746af0cc2de26b65858afacba28d07ebf01c27eddf",
+          "render_bounds": [
+            6,
+            21,
+            119,
+            121
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        20,
+        119,
+        121
+      ]
+    },
+    {
+      "slot": 8,
+      "key": "armiger",
+      "folder": "10_玄甲士",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2424,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/armiger/idle.png",
+          "source": "10_玄甲士/idle",
+          "source_frames": [
+            {
+              "name": "10_玄甲士\\idle\\idle_01.png",
+              "sha256": "2a0770f7ac777e67935c4196eab18225f8ecc7a1949431235f173363ecb4441f"
+            },
+            {
+              "name": "10_玄甲士\\idle\\idle_02.png",
+              "sha256": "b8048409e1d40c5095aeeece998c3c7b373adfd8b010da264a62376b5092480c"
+            },
+            {
+              "name": "10_玄甲士\\idle\\idle_03.png",
+              "sha256": "c251994455b2fa4975c84e6fd2abd9a8d6cd9d2b67b3bf8126611f32e52575a0"
+            },
+            {
+              "name": "10_玄甲士\\idle\\idle_04.png",
+              "sha256": "639224019fed70d097f6e9c0f8e4e0cc4590e266e64d286f9d8735cb9fbe3c43"
+            },
+            {
+              "name": "10_玄甲士\\idle\\idle_05.png",
+              "sha256": "e8a2bae606ca26211900801c82bec41e27579450aae9e2a3007ff31fe8c93ed4"
+            },
+            {
+              "name": "10_玄甲士\\idle\\idle_06.png",
+              "sha256": "cd98a4dd1390be8a7ba09b7d67e66308880a55562409ec1b674e47e188b1ae0b"
+            }
+          ],
+          "atlas_sha256": "b5c51df8c9fdf45185fb0360b86cd6f1f40a48534af2f78e02d1424cef41a67b",
+          "render_bounds": [
+            9,
+            22,
+            104,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2425,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/armiger/walk.png",
+          "source": "10_玄甲士/walk",
+          "source_frames": [
+            {
+              "name": "10_玄甲士\\walk\\walk_01.png",
+              "sha256": "15eff60bfca627449b9f7efc8bb668db7ff9669e30c5e2ba7613e902588bb026"
+            },
+            {
+              "name": "10_玄甲士\\walk\\walk_02.png",
+              "sha256": "aedc21fa1bae59eb834f2b06dd1da77918e51921187fff3d6f658fe20d4ddb6d"
+            },
+            {
+              "name": "10_玄甲士\\walk\\walk_03.png",
+              "sha256": "f5a3c63118352428bd59b62d206633ca3b701dd6c63686dc06b66e5ec28db38b"
+            },
+            {
+              "name": "10_玄甲士\\walk\\walk_04.png",
+              "sha256": "28c1e429db211c05aa8664825ae0718280f02cd9f135491ed515ec800b0bd667"
+            }
+          ],
+          "atlas_sha256": "587fc90b8f7f671443055dd607039c285a03655a9b6fa9f268809a0d30acab60",
+          "render_bounds": [
+            5,
+            22,
+            108,
+            121
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2426,
+          "frames": 12,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/armiger/special.png",
+          "source": "玄甲士_举盾横矛12帧_20261023.zip",
+          "source_frames": [
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_01.png",
+              "sha256": "f02750fcd72d4ae2dad4b00c6a611663c2255ababee594e3d1ce587232ef685a"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_02.png",
+              "sha256": "8315ff577ae9b9b4c98507ac3d0ed41f1809f11d8910299ba941d59d7b22274b"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_03.png",
+              "sha256": "835c64c9464e3add023f3576ad8154d285033c5d651df395f0b2fef3b1285c8d"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_04.png",
+              "sha256": "70b8768329c3fe96188138a2ff3378e30b4b2a0682b2c112f132f504e6caac58"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_05.png",
+              "sha256": "dbc33c91e6522f7bd86d348d65fdf466be9808b92da313c47720aff26773a04c"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_06.png",
+              "sha256": "eeda19b6a763b5e66f51a641b407b6ddc98798598bc0cd73db635027b26bc202"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_07.png",
+              "sha256": "5a2e5ecbbaaf54401af7adc836993a94832b31375abfd1508b7bf0254f7c135b"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_08.png",
+              "sha256": "70b8768329c3fe96188138a2ff3378e30b4b2a0682b2c112f132f504e6caac58"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_09.png",
+              "sha256": "fb384f9dc0f5dfa629de7e2815502e3cac0ee5d5cf8ba78d81206644582309b5"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_10.png",
+              "sha256": "458ff9971e64bbf425a501842d1da98acbd1b0a7181083be982c5ef2fb47ba7d"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_11.png",
+              "sha256": "07f398ea4d85faac5395406fc06ae24fabf1f98c9bcb1fedfd4ef9dc48b318ce"
+            },
+            {
+              "name": "玄甲士_举盾横矛12帧_20261023/frames_128/idle_12.png",
+              "sha256": "f9633af650004bba39d6c73f7065a3b2f28ad5cd85e5f6824d76e0547fa266e8"
+            }
+          ],
+          "atlas_sha256": "2bf8d3759a495eaced4f3b7294884ab2d4ba145177b5ba799a77e30e47f63120",
+          "render_bounds": [
+            9,
+            22,
+            123,
+            121
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        22,
+        123,
+        121
+      ]
+    },
+    {
+      "slot": 9,
+      "key": "flamer",
+      "folder": "11_流萤",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2427,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/flamer/idle.png",
+          "source": "11_流萤/idle",
+          "source_frames": [
+            {
+              "name": "11_流萤\\idle\\idle_01.png",
+              "sha256": "8e34a077894bbef06322689283797ce64ca20c23d09b72e5d3d3c1c1d5171862"
+            },
+            {
+              "name": "11_流萤\\idle\\idle_02.png",
+              "sha256": "6bdab52b197b9677d6d4170f5c050750a9870411d65ec11f3dbf254e15244dd9"
+            },
+            {
+              "name": "11_流萤\\idle\\idle_03.png",
+              "sha256": "011334a161c67c5fe727ae30e0911400b8f37e44f3f14193379483b95237c645"
+            },
+            {
+              "name": "11_流萤\\idle\\idle_04.png",
+              "sha256": "84e892da676b9ee27607f08915c9e1ebb7d29fd13fdf0533dbfcd0d1ff962a15"
+            },
+            {
+              "name": "11_流萤\\idle\\idle_05.png",
+              "sha256": "7f8469ddcf48a03c622b54ddfb77b8fb96787dc3e95ff1d44a9ad2e14cfc46e9"
+            },
+            {
+              "name": "11_流萤\\idle\\idle_06.png",
+              "sha256": "0dbfacfeb8e4cbd660e93c438c24b9f434dcaa58c31826b070d1bf3a662d2c8a"
+            }
+          ],
+          "atlas_sha256": "286e03906efba394fa0f51e59746522c3caa2a3ea4ee980496931cbd445cee90",
+          "render_bounds": [
+            8,
+            21,
+            116,
+            122
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2428,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/flamer/walk.png",
+          "source": "11_流萤/walk",
+          "source_frames": [
+            {
+              "name": "11_流萤\\walk\\walk_01.png",
+              "sha256": "d00201408be2c6fe492da2a38164e33523f024ada327315f4ef9d603e0ab4bd3"
+            },
+            {
+              "name": "11_流萤\\walk\\walk_02.png",
+              "sha256": "a380fd001bc553d7808c8d9e27ddc019d90ddb31ec94709e67118f69871293ef"
+            },
+            {
+              "name": "11_流萤\\walk\\walk_03.png",
+              "sha256": "4747efa2048b1c02795cf9e932db6d19fad6310792bf641e52be8d63e52adead"
+            },
+            {
+              "name": "11_流萤\\walk\\walk_04.png",
+              "sha256": "3db484f6f016aeb2f7fa5fde67512398962e38eb76eb817bf4644fb6a2f791c0"
+            }
+          ],
+          "atlas_sha256": "ee5194a9d9eb37072a4919c67a2e82b3af10027836df376a46ccbc304087b179",
+          "render_bounds": [
+            5,
+            20,
+            112,
+            121
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2429,
+          "frames": 12,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/flamer/special.png",
+          "source": "流萤_交叉双刃烈焰12帧_20261026.zip",
+          "source_frames": [
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_01.png",
+              "sha256": "b255b4369b32f0d156c4e8e9d75664f1e32113610835878160d67de4669d2a70"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_02.png",
+              "sha256": "8ea6eb391837df298f8532d8c5e35886f728d23796bc9e153e8d1b3617c696e8"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_03.png",
+              "sha256": "cd53917991f239c24e2361e3172215f026f8cd5567b7d3e89b2e1bb8e9b5fce7"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_04.png",
+              "sha256": "15c0a965d32521889cf5e33f6cc64e7a27151230e2761f87cc85cf31d8972333"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_05.png",
+              "sha256": "e923473ab4385f842810695d6f7a32de15656ed37390c80538d362a67833d46b"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_06.png",
+              "sha256": "db95d69f5d9d978312bb29ef1a417709674bf3ebd0aab7bf7c90d3c0f0fbbc4f"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_07.png",
+              "sha256": "68128081764a526818ba6363155779c328e9babd76008a18fe9501bcd0c1acd0"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_08.png",
+              "sha256": "41439d0418e4f06a95ac484fad0000c7908c2ac86d3e894f1ff4bee4f62deba0"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_09.png",
+              "sha256": "8bbfa32afd32cf08baa74521ac7c1fdf7e8cc342b9f822772c6514ab13ca24dd"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_10.png",
+              "sha256": "cbd77a9e4f4d3d6bfb2f0a2eee694a7098b49b90eca00609068b0650eb699518"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_11.png",
+              "sha256": "cced8bd7be445f9c2409273013661ff92b3fe26c8d7ede03b0d03842105ea003"
+            },
+            {
+              "name": "流萤_交叉双刃烈焰12帧_20261026/frames_128/idle_12.png",
+              "sha256": "32e557d1c4409fb63c848de03f4660fac3b6fd978477770e9b58fa6af24abc3f"
+            }
+          ],
+          "atlas_sha256": "76ca9e22c367bfc1a65b9e8eeac6244761066b763c99b64fdd2bfeacbf2432f6",
+          "render_bounds": [
+            8,
+            22,
+            116,
+            127
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        20,
+        116,
+        127
+      ]
+    },
+    {
+      "slot": 10,
+      "key": "wall-guard",
+      "folder": "12_长城守卫军",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2430,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/wall-guard/idle.png",
+          "source": "12_长城守卫军/idle",
+          "source_frames": [
+            {
+              "name": "12_长城守卫军\\idle\\idle_01.png",
+              "sha256": "405feb3d044c4021da51fe98c9e559242749ff2d514c08d34f33dec3454e5a4e"
+            },
+            {
+              "name": "12_长城守卫军\\idle\\idle_02.png",
+              "sha256": "d100b47f3e27e345f340fb3acf8f9334dc86fc8e871b869d9871ee7897a79b2b"
+            },
+            {
+              "name": "12_长城守卫军\\idle\\idle_03.png",
+              "sha256": "aba36325670ab53634b1a6d978c097efd6df48c8e7e8d6f93996ac549ab1b0fa"
+            },
+            {
+              "name": "12_长城守卫军\\idle\\idle_04.png",
+              "sha256": "c0905b059fe11336facd6f9d4a11f6136ca5e73a322e69c41755186377b1ac1e"
+            },
+            {
+              "name": "12_长城守卫军\\idle\\idle_05.png",
+              "sha256": "bcccc1e8ff188335663508b30256bb841c7e17dfc8c796cf1e0ba5be509a954d"
+            },
+            {
+              "name": "12_长城守卫军\\idle\\idle_06.png",
+              "sha256": "31cb6f127c77a0bac5c17cf39ab32ba7b2181b307d88a7becae1d72c556398bc"
+            }
+          ],
+          "atlas_sha256": "f65a19721eefa61d0651e3cd9a567dcc6212bb398408863ffbd04ce4b950bd7b",
+          "render_bounds": [
+            12,
+            22,
+            114,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2431,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/wall-guard/walk.png",
+          "source": "12_长城守卫军/walk",
+          "source_frames": [
+            {
+              "name": "12_长城守卫军\\walk\\walk_01.png",
+              "sha256": "e651d4af17cb4ee2ed02fc55a4cb51fd95bacbddabfa88dc9d247df25a738ab2"
+            },
+            {
+              "name": "12_长城守卫军\\walk\\walk_02.png",
+              "sha256": "9c17d191b12e82a48117c27857732730a56118db919e071f3cea9fbafb34a916"
+            },
+            {
+              "name": "12_长城守卫军\\walk\\walk_03.png",
+              "sha256": "e888c35449be976b7421bf75a267edbd23f755012305fc799721bd0eca1f2fbd"
+            },
+            {
+              "name": "12_长城守卫军\\walk\\walk_04.png",
+              "sha256": "935bb2a9893b6a64a8f454325e14b540ecb3402448c6de686aa4244cb03ea9cd"
+            }
+          ],
+          "atlas_sha256": "f46b6c52e206ffe29c62699bb115ac0944aa7e36a2496943df6f0451b4479664",
+          "render_bounds": [
+            5,
+            23,
+            122,
+            121
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2432,
+          "frames": 12,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/wall-guard/special.png",
+          "source": "长城守卫军_举盾立矛12帧_20261026.zip",
+          "source_frames": [
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_01.png",
+              "sha256": "64c63cd3719ee3a16f7b1e0d19d04baf0538d9fb9b87c134f48e3a0eb91d5399"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_02.png",
+              "sha256": "5574fa91bbf9f6ba3ad3566b0b94f1bb436573ce9ab318b29ef32c3de39efce1"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_03.png",
+              "sha256": "c2a4f7367d7a1bee61ed961e5bb94e33cc5b90cbc6d14fd288dab5e25339a3a6"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_04.png",
+              "sha256": "714b06ba3112ed100ac13701d7ea676d44605577dba9e68878a38962fd6bc8a2"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_05.png",
+              "sha256": "ff4d99e868fe42f213ccb23734224ad2c94dda237c28c45c3c1bde3e17cc4d97"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_06.png",
+              "sha256": "a2cf3924bcbb9f6266c18bc57e6232eb26b3e1d583fb6cf3af3eb1852ccfd94e"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_07.png",
+              "sha256": "30f629b1ee6a779925b89ca2ac765065da515519f706993d3fb5c20d5b469005"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_08.png",
+              "sha256": "a57e499b81bfee7dbd5986be0b10cdbb0fe31a7a741e81b95ee2d0f205f46c6f"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_09.png",
+              "sha256": "2a5a7b6a3b9bca3d6eed5eb49ecd7caf1a449585260f1eb7409d0876f1700d36"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_10.png",
+              "sha256": "94b8c74d0b519d765c3135c87e99f9b7a5f6e1e7f126602d13194fe3009c9431"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_11.png",
+              "sha256": "75a3e5e01b12c8048feabf938c5ca9f330efbdc4606a2a30bf68cd5509679408"
+            },
+            {
+              "name": "长城守卫军_举盾立矛12帧_20261026/frames_128/idle_12.png",
+              "sha256": "fc81d8c9537975e85df888e6c34b8fbb8d2978a6532f4dd9046d3a94e3ec973e"
+            }
+          ],
+          "atlas_sha256": "1e494241f399e4242c852df504e456061c7816da76c1204048e701d9bf90c5f3",
+          "render_bounds": [
+            11,
+            9,
+            121,
+            121
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        9,
+        122,
+        121
+      ]
+    },
+    {
+      "slot": 11,
+      "key": "prince",
+      "folder": "13_小王子",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2433,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/prince/idle.png",
+          "source": "13_小王子/idle",
+          "source_frames": [
+            {
+              "name": "13_小王子\\idle\\idle_01.png",
+              "sha256": "7e262899da6f220af5d575cebb530ae98b92c3ca8ee5e27c04537ba96eb6aa5d"
+            },
+            {
+              "name": "13_小王子\\idle\\idle_02.png",
+              "sha256": "353f4c73568293a2c5e8d30668f2131de4e1b61b38297423762742569b416d92"
+            },
+            {
+              "name": "13_小王子\\idle\\idle_03.png",
+              "sha256": "5f7d6f7793325ea000e1f81b865018b9e31a61bdaa1d685b9e9864746b0c04b1"
+            },
+            {
+              "name": "13_小王子\\idle\\idle_04.png",
+              "sha256": "18668c984850e1ead0f7b0ee47d275c7a9fe469c9077403c576048e3295cbbf4"
+            },
+            {
+              "name": "13_小王子\\idle\\idle_05.png",
+              "sha256": "e724955c48bb3e4605d53fab8d065e7779138244e869b7537f0cf6ae9b0d2b03"
+            },
+            {
+              "name": "13_小王子\\idle\\idle_06.png",
+              "sha256": "c33083e2049b120db7a7ea1df8b13f6ee7d0e5a560e3f8c3053ce498250fb72c"
+            }
+          ],
+          "atlas_sha256": "627c11c0ea13c74b4392f22b33448f7130292e9b1fe1b6d632d39eba41af5b89",
+          "render_bounds": [
+            5,
+            20,
+            100,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2434,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/prince/walk.png",
+          "source": "13_小王子/walk",
+          "source_frames": [
+            {
+              "name": "13_小王子\\walk\\walk_01.png",
+              "sha256": "5dc1de0a7f7ee1b8587e39616f793453df970b6648483c37e97686dbd4bf4a49"
+            },
+            {
+              "name": "13_小王子\\walk\\walk_02.png",
+              "sha256": "1a2eb76da5b2efb96153f6d89fcf1283ab61cf83365a163191d295a614d0b715"
+            },
+            {
+              "name": "13_小王子\\walk\\walk_03.png",
+              "sha256": "010734470d9345b8371beb92417dacb901dafe0905643a4041c758ada36ce8b0"
+            },
+            {
+              "name": "13_小王子\\walk\\walk_04.png",
+              "sha256": "8abdd0f196802a15aaf931a625f26b07450e7df5ba2f086b09418d5f96ffb4e7"
+            }
+          ],
+          "atlas_sha256": "8cd490f497aca07ac235970b3a44e8c7b9f9ff8136c114e1e73c5d063256b095",
+          "render_bounds": [
+            5,
+            22,
+            104,
+            121
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2435,
+          "frames": 16,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 112,
+          "placeholder": false,
+          "atlas": "assets/characters/prince/special.png",
+          "source": "小王子_抛花取花16帧_20261021.zip",
+          "source_frames": [
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_01.png",
+              "sha256": "f754732e395485a7ca935fd4be1805566f73843155d161141a01eb0925023620"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_02.png",
+              "sha256": "638165f5886b6d56b9deb8bccb65fdaf9eda126b7d4894a582a7cae7f82cf352"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_03.png",
+              "sha256": "a7a7321a1527b70c1202810796e22d9885a884259abc043ee080c8fecc471fb1"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_04.png",
+              "sha256": "0ec0cd1ae06eb6b680accf6a5009cfe1384f58609dd9c0661c73a051fa094046"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_05.png",
+              "sha256": "82fc2669d2da9ceeda76f197dbd7f973809576fdc6ef4f5868d1567e42b2e099"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_06.png",
+              "sha256": "cc1964756fabf80bac243dd06b70a6ff8443e7cc23b0c87878292f00e6c3cab7"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_07.png",
+              "sha256": "45333e7bbefef68793cf578abf00c74e184ca0f15b4a08fc4a7fa80a07a9acaf"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_08.png",
+              "sha256": "57890044025b20dac594e59ce51cd2398ca073ec7d72d314996a74607791f602"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_09.png",
+              "sha256": "b4f6b76a5cdc4d2f8f73b98a69048a40e763fb994101963881ce8b3b499a81e3"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_10.png",
+              "sha256": "abb952d4943694f8cb1e8dfb23de6767aad683333b8eb69645026a41e61fbc6d"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_11.png",
+              "sha256": "38dd070fab01f811d161bd4aebfccad9b1e050712e832fb4ade6e76e1bfce419"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_12.png",
+              "sha256": "c9adbad593a1d2af9d56f7a6c22857457b08a91300af08c41512d55babcdcfc3"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_13.png",
+              "sha256": "ca81647a55482a6da35a27af077df7acb5b4d393c2eee8a2faff5d869ed2c61b"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_14.png",
+              "sha256": "1306ecec5ffc80fc62b21a8fd67f599694f98e69b3e4f1efb8228b51fe956934"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_15.png",
+              "sha256": "f23cc79914644c8a0abbeadfbe895d8ff9f03fb7670aa05bb90313a34487c69f"
+            },
+            {
+              "name": "小王子_抛花取花16帧_20261021/frames_128/idle_16.png",
+              "sha256": "4bddc1819470926fb9741eaa205c6d26a07986f1a15fe05d8b717d485c4927dc"
+            }
+          ],
+          "atlas_sha256": "7db139a45f1d8d278e0004df8713e002992e029b03076d6cdcbdebcfdb7a1ea3",
+          "render_bounds": [
+            6,
+            18,
+            125,
+            123
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        18,
+        125,
+        123
+      ]
+    },
+    {
+      "slot": 12,
+      "key": "sword",
+      "folder": "14_长生剑",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2436,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/sword/idle.png",
+          "source": "14_长生剑/idle",
+          "source_frames": [
+            {
+              "name": "14_长生剑\\idle\\idle_01.png",
+              "sha256": "e3332720a61330ff62bf643988ee46806189c91766d6c02cbee18d9ac0b06a1b"
+            },
+            {
+              "name": "14_长生剑\\idle\\idle_02.png",
+              "sha256": "70318bc4a82902a8605d7467c4a2058903c2ca7c203ae71ecf0583e656277393"
+            },
+            {
+              "name": "14_长生剑\\idle\\idle_03.png",
+              "sha256": "8bb1c9b2e9be591ece12e96529322a24720d3bbc7e5a894b2682c0612151ca34"
+            },
+            {
+              "name": "14_长生剑\\idle\\idle_04.png",
+              "sha256": "9a9e25b75cea5bb7ee3bc3ac98daa566f1e6ec630fff6d9204bf56de9d2290d5"
+            },
+            {
+              "name": "14_长生剑\\idle\\idle_05.png",
+              "sha256": "c59376292cb2411a5976eef765c3b8b35394f139537849b7eb08dfeea557d7a2"
+            },
+            {
+              "name": "14_长生剑\\idle\\idle_06.png",
+              "sha256": "a3381971e3e13edc9dbe6ee1e12920ad9266368302f37983490c136c722d6c58"
+            }
+          ],
+          "atlas_sha256": "357137f78caee170f2753ecbbdc98af2f54792ee62b0904f5e75aaa920ed9feb",
+          "render_bounds": [
+            11,
+            29,
+            115,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2437,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/sword/walk.png",
+          "source": "14_长生剑/walk",
+          "source_frames": [
+            {
+              "name": "14_长生剑\\walk\\walk_01.png",
+              "sha256": "3fe5db186763d2195e53f0479312f8e06885b535c21e9af623a37604011a976b"
+            },
+            {
+              "name": "14_长生剑\\walk\\walk_02.png",
+              "sha256": "c28810e6933dd9607e16e39a03686d319e01b01615708339496f90537f82882c"
+            },
+            {
+              "name": "14_长生剑\\walk\\walk_03.png",
+              "sha256": "dbcb41331b26151c5e8501af082b6eb3fbe1a6328b4288f9ab59bac15826b2f2"
+            },
+            {
+              "name": "14_长生剑\\walk\\walk_04.png",
+              "sha256": "ed3cf6ee9028b681d099ae7d4a1d8a236fc282cca8625939303ff56953e8f99d"
+            }
+          ],
+          "atlas_sha256": "ec502a26468aff5fc3e8b12cc04069e01a29cc7fd5ba879abba23f72ad9599ee",
+          "render_bounds": [
+            6,
+            29,
+            122,
+            122
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2438,
+          "frames": 16,
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/sword/special.png",
+          "source": "长生剑_抬剑剑雨16帧_20261023.zip",
+          "source_frames": [
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_01.png",
+              "sha256": "04a3d569b79ae2a63c7a49b540ecfa5a0311a36d317a4b110c2b863fb9b5ae19"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_02.png",
+              "sha256": "4d708cb6697a287cfb37b0808c54af526705d3a7b69d3e615a48829538a76f5a"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_03.png",
+              "sha256": "0b0be1ed405077dbc322182d342bc1039472be1fd092e6389b0ec234ee48d119"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_04.png",
+              "sha256": "b155b11264545d550e5f244861389592d01b56d81581d70883c6fb434cd940e5"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_05.png",
+              "sha256": "7aa97560c391329a5ddbade0aabfdfb44c96c02e4c797452c7c3f3f795356522"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_06.png",
+              "sha256": "326c01fcb76b74fb3d294058e1635a791016aea8d5644ef4efa5b3287fd41e34"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_07.png",
+              "sha256": "4150ccce0a7fc004c79f6572a9e72a9e3a4fd7fbc12fe0e91ea6f5442be910ca"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_08.png",
+              "sha256": "3e8b1967001e50023bbffa7a98a3f516abe14d79d82a6165213ccabfa57e08a1"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_09.png",
+              "sha256": "03b86201e5d2460e2f8a3351eba4491cc7b9ceb59b7e748e9c469ccd0d752c43"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_10.png",
+              "sha256": "c4e8fdd49a99dc01a4c37755ac4619e0d7257100b4c6dfec46064ded8f2aa0e6"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_11.png",
+              "sha256": "af5130de82d872458ff16959693b1cb65ef6a0288f323962d9ceff18a223c505"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_12.png",
+              "sha256": "808fcbea1c0c7c666f1bc7fad3e7cad2b6ee2a9993ebd1b0d976b08397d0f476"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_13.png",
+              "sha256": "b6409e7be8367e86a636964e9bdd9d076decf93cbf624cf69d5dd70cf94bfb05"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_14.png",
+              "sha256": "7c18366237bb866582f6d14e03f777ced3519561eadc771fb40c1c876c2da564"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_15.png",
+              "sha256": "b1de32d8808a7d3178830f823874c95e5ef145658c059ef079e1c5e6397ceed0"
+            },
+            {
+              "name": "长生剑_抬剑剑雨16帧_20261023/frames_128/idle_16.png",
+              "sha256": "77968302199a28b58fa04921a32b1c588165a80f16379809c0dec4d3ab5380ce"
+            }
+          ],
+          "atlas_sha256": "1c7730840fa565612775bfd995f89c0e8f0042feddef424b658f3d6689e5877c",
+          "render_bounds": [
+            4,
+            1,
+            125,
+            121
+          ]
+        }
+      ],
+      "render_bounds": [
+        4,
+        1,
+        125,
+        122
+      ]
+    },
+    {
+      "slot": 13,
+      "key": "hidden-human",
+      "folder": "06_隐狼·人形",
+      "clips": [
+        {
+          "kind": "idle",
+          "resource": 2439,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/hidden-human/idle.png",
+          "source": "06_隐狼·人形/idle",
+          "source_frames": [
+            {
+              "name": "06_隐狼·人形\\idle\\idle_01.png",
+              "sha256": "3d12fb22494792fa9331d085f0d60543a85958eb5b74c56976142654cc4903b0"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_02.png",
+              "sha256": "ccdbd4287009d5bf3d5dc73879cd8c3b106cb1444c0d227dd1198498d8481209"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_03.png",
+              "sha256": "81c86f47aeb17272462fbc1e9254cc8f3df9c86e610351ebf003caa7f693bf8f"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_04.png",
+              "sha256": "80d60580215f988886cb5238cbf69b6357f8aeece81cf0f2e6e282cbd6e66bec"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_05.png",
+              "sha256": "7bb7988cb34b685bdfa51ec0ffe2f47acaf5bf462d11b5bbf673eab1194a5cac"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_06.png",
+              "sha256": "f21e77a6617cc06b1a7e5510a17ad0e22405a83d4702576472418f8d17e51551"
+            }
+          ],
+          "atlas_sha256": "d698dac42b74eb7213a4ba3243d455e218d7bae00b04a9887be480c60540a6a0",
+          "render_bounds": [
+            19,
+            30,
+            104,
+            121
+          ]
+        },
+        {
+          "kind": "walk",
+          "resource": 2440,
+          "frames": 4,
+          "durations_ms": [
+            160,
+            160,
+            160,
+            160
+          ],
+          "ground_y": 120,
+          "placeholder": false,
+          "atlas": "assets/characters/hidden-human/walk.png",
+          "source": "06_隐狼·人形/walk",
+          "source_frames": [
+            {
+              "name": "06_隐狼·人形\\walk\\walk_01.png",
+              "sha256": "f2f8505dcd1f132bf24b407e793282d489df1289a9debf48ac51b81f7fb83c2f"
+            },
+            {
+              "name": "06_隐狼·人形\\walk\\walk_02.png",
+              "sha256": "5268bf70cd8519065ca332cb6b067ebf1ad08705cb1140fae04499ea70185b93"
+            },
+            {
+              "name": "06_隐狼·人形\\walk\\walk_03.png",
+              "sha256": "95835c3e98ab31182afeb55518051cbbb5f3ad7bf3e5edba2553877a984313cd"
+            },
+            {
+              "name": "06_隐狼·人形\\walk\\walk_04.png",
+              "sha256": "833ea8a1964599503dae66709f0fb2bab8a16476a2f99d809df4f1c49d7844f5"
+            }
+          ],
+          "atlas_sha256": "b32d40b5866dd133e1413e332cb0f82b16c8705c56205f31762a6cf021f84811",
+          "render_bounds": [
+            5,
+            31,
+            105,
+            121
+          ]
+        },
+        {
+          "kind": "special",
+          "resource": 2439,
+          "frames": 6,
+          "durations_ms": [
+            280,
+            220,
+            280,
+            300,
+            240,
+            280
+          ],
+          "ground_y": 120,
+          "placeholder": true,
+          "atlas": "assets/characters/hidden-human/idle.png",
+          "source": "idle placeholder",
+          "source_frames": [
+            {
+              "name": "06_隐狼·人形\\idle\\idle_01.png",
+              "sha256": "3d12fb22494792fa9331d085f0d60543a85958eb5b74c56976142654cc4903b0"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_02.png",
+              "sha256": "ccdbd4287009d5bf3d5dc73879cd8c3b106cb1444c0d227dd1198498d8481209"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_03.png",
+              "sha256": "81c86f47aeb17272462fbc1e9254cc8f3df9c86e610351ebf003caa7f693bf8f"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_04.png",
+              "sha256": "80d60580215f988886cb5238cbf69b6357f8aeece81cf0f2e6e282cbd6e66bec"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_05.png",
+              "sha256": "7bb7988cb34b685bdfa51ec0ffe2f47acaf5bf462d11b5bbf673eab1194a5cac"
+            },
+            {
+              "name": "06_隐狼·人形\\idle\\idle_06.png",
+              "sha256": "f21e77a6617cc06b1a7e5510a17ad0e22405a83d4702576472418f8d17e51551"
+            }
+          ],
+          "atlas_sha256": "d698dac42b74eb7213a4ba3243d455e218d7bae00b04a9887be480c60540a6a0",
+          "render_bounds": [
+            19,
+            30,
+            104,
+            121
+          ]
+        }
+      ],
+      "render_bounds": [
+        5,
+        30,
+        105,
+        121
+      ]
+    }
+  ]
+}

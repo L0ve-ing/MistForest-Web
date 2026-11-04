@@ -1,0 +1,91 @@
+{
+  "archive": "角色立绘_最终 (2).zip",
+  "archiveSha256": "0f16b3e0c25c348ba5897c5ea70cf319e79999d0246d276b79864624e7822f46",
+  "note": "Role Flamer keeps the name 祝融 and fire rules, displaying the provided 流萤 portrait as authorized; hidden-human is form 0. Original PNG bytes unchanged.",
+  "assets": [
+    {
+      "resourceId": 2100,
+      "file": "jin.png",
+      "archivePngIndex": 1,
+      "sha256": "d8d9d04cd6f1e2450eecedc0f674ce3e5595c2b8fe4250f783a723e2f417c4fc"
+    },
+    {
+      "resourceId": 2101,
+      "file": "wolf.png",
+      "archivePngIndex": 2,
+      "sha256": "348e0c7156979d930bdc0c56a605b442f318316b60d797411a173c7f8d03c642"
+    },
+    {
+      "resourceId": 2102,
+      "file": "ink.png",
+      "archivePngIndex": 3,
+      "sha256": "f08e273d2523ddb5d205d9778226fb44068acf040ff03babf873493a5016d9a4"
+    },
+    {
+      "resourceId": 2103,
+      "file": "shadow.png",
+      "archivePngIndex": 4,
+      "sha256": "fe3b4ae3dcb4eb9a1cebd5d72089d8b16dec080f3668c7d857d902ac4935e893"
+    },
+    {
+      "resourceId": 2104,
+      "file": "heavy.png",
+      "archivePngIndex": 5,
+      "sha256": "938a64dcbd3dfacbc33589b82e0b872672e46c9db9a537952424c0a16249a3f4"
+    },
+    {
+      "resourceId": 2105,
+      "file": "hidden-wolf.png",
+      "archivePngIndex": 7,
+      "sha256": "2b09fe06cec60111ecff4f2c79ba3aed8dd8e3db4e77c17388335dbb5813cbff"
+    },
+    {
+      "resourceId": 2106,
+      "file": "knight.png",
+      "archivePngIndex": 8,
+      "sha256": "c26c28bee5e852abcca66774a6444782d9fe63a7a8b773408ffc40a07b8c09c6"
+    },
+    {
+      "resourceId": 2107,
+      "file": "alpha.png",
+      "archivePngIndex": 9,
+      "sha256": "3d5315a0ac43af8ab8e2a6ff068dea588cf2c5ce257705887b3c593bc26044f8"
+    },
+    {
+      "resourceId": 2108,
+      "file": "armiger.png",
+      "archivePngIndex": 10,
+      "sha256": "8e24a797b364438254af974a273f14f8149a88512613ec4321aeea30c9c6a4dc"
+    },
+    {
+      "resourceId": 2109,
+      "file": "flamer-display.png",
+      "archivePngIndex": 11,
+      "sha256": "cec65fb9ccf516440d11a74d0a4d120d31428640750fa111f935ce57e9f96fa3"
+    },
+    {
+      "resourceId": 2110,
+      "file": "wall-guard.png",
+      "archivePngIndex": 12,
+      "sha256": "60de880199fb21346803b031afe18b1459a6a3529d96eaf70567025c470449db"
+    },
+    {
+      "resourceId": 2111,
+      "file": "prince.png",
+      "archivePngIndex": 13,
+      "sha256": "3a5345548dccea5d889d56140771b0eaa57ceb22a449228e30a195af85897b23"
+    },
+    {
+      "resourceId": 2112,
+      "file": "sword.png",
+      "archivePngIndex": 14,
+      "sha256": "9b4033b6231d9fe7f81e8df1b6ec510a1b4db981acca13aa31d17276c0160a15"
+    },
+    {
+      "resourceId": 2113,
+      "file": "hidden-human.png",
+      "archivePngIndex": 6,
+      "sha256": "18fda5ac0c575a0112d153eb8faf6e9713aa2ad8bf81e5d2a9bb41f9a3d3e260"
+    }
+  ]
+}

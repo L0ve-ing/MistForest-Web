@@ -1,0 +1,6 @@
+.git
+build*
+artifacts
+runtime
+**/*.exe
+**/*.o

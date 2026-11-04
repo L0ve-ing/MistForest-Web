@@ -1,0 +1,31 @@
+// PNG bytes copied unchanged from the user-provided final portrait archive.
+2100 RCDATA "assets/portraits/jin.png"
+2101 RCDATA "assets/portraits/wolf.png"
+2102 RCDATA "assets/portraits/ink.png"
+2103 RCDATA "assets/portraits/shadow.png"
+2104 RCDATA "assets/portraits/heavy.png"
+2105 RCDATA "assets/portraits/hidden-wolf.png"
+2106 RCDATA "assets/portraits/knight.png"
+2107 RCDATA "assets/portraits/alpha.png"
+2108 RCDATA "assets/portraits/armiger.png"
+2109 RCDATA "assets/portraits/flamer-display.png"
+2110 RCDATA "assets/portraits/wall-guard.png"
+2111 RCDATA "assets/portraits/prince.png"
+2112 RCDATA "assets/portraits/sword.png"
+2113 RCDATA "assets/portraits/hidden-human.png"
+
+// Approved textured VFX keyframes; embedded so the standalone EXE has the same artwork.
+2200 RCDATA "assets/effects/approved-keyframes.png"
+2201 RCDATA "assets/effects/role-melee-keyframes.png"
+2202 RCDATA "assets/effects/role-ranged-keyframes.png"
+2203 RCDATA "assets/effects/full-core-keyframes.png"
+2204 RCDATA "assets/effects/full-growth-keyframes.png"
+2205 RCDATA "assets/effects/full-motion-keyframes.png"
+2206 RCDATA "assets/effects/full-world-keyframes.png"
+
+// Native battlefield idle / walk / special frame atlases.
+#include "characters.rc"
+2250 RCDATA "assets/terrain/forest-water-atlas.png"
+2251 RCDATA "assets/terrain/grass-floor-atlas.png"
+2252 RCDATA "assets/interface/forest-clearing.png"
+2253 RCDATA "assets/terrain/forest-structures-atlas.png"
