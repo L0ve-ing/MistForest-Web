@@ -1,4 +1,6 @@
 #include "../src/game.hpp"
+#include "../src/presentation/skill_fx.hpp"
+#include "../src/presentation/actor_motion.hpp"
 #include <algorithm>
 #include <iostream>
 #include <memory>
@@ -79,6 +81,77 @@ std::vector<Action> actions(const View &v) {
         }
     return result;
 }
+void cellsJson(std::ostream &out, const Mask &mask) {
+    out << '[';
+    bool comma = false;
+    for (int c = 0; c < 81; ++c) if (mask[c]) {
+        if (comma) out << ',';
+        comma = true;
+        out << c + 1;
+    }
+    out << ']';
+}
+// Reuse the native renderer's descriptors, constructed only from this viewer's
+// committed Views. Never export Event.action, Snapshot or hidden enemy routes.
+void presentationJson(std::ostream &out, const View &v) {
+    using namespace mist::presentation;
+    if (!game || v.revision <= 0) {out << "null";return;}
+    const Notice *line = nullptr;
+    std::vector<Mask> phases;
+    std::vector<const Notice *> notices;
+    for (const auto &n : v.notices) if (n.revision == v.revision) {
+        notices.push_back(&n);
+        if (!line && n.unit >= 0) line = &n;
+        if (fxAny(n.attacks) && (phases.empty() || phases.back() != n.attacks))
+            phases.push_back(n.attacks);
+    }
+    if (!line) {out << "null";return;}
+    if (phases.empty()) phases.push_back(Mask{});
+    const auto before = game->historicalView(v.player, std::size_t(v.revision - 1));
+    out << "{\"revision\":" << v.revision << ",\"kind\":" << int(line->kind)
+        << ",\"actor\":" << (line->player == v.player ? line->unit : -1)
+        << ",\"lead\":" << (sprites::movesActor(line->kind) ? 550 : 350)
+        << ",\"duration\":" << (fxAny(phases.front()) ? 1400 : 850)
+        << ",\"notices\":[";
+    for (std::size_t i = 0; i < notices.size(); ++i) {
+        if (i) out << ',';
+        out << "{\"text\":" << quoted(notices[i]->text)
+            << ",\"weight\":" << notices[i]->weight
+            << ",\"feedback\":" << (notices[i]->feedback ? "true" : "false") << '}';
+    }
+    out << "],\"phases\":[";
+    for (std::size_t i = 0; i < phases.size(); ++i) {
+        if (i) out << ',';
+        const auto fx = makeSkillFx(before, v, *line, phases[i], v.notices);
+        out << "{\"style\":" << int(fx.style) << ",\"role\":" << int(fx.role)
+            << ",\"kind\":" << int(fx.kind) << ",\"form\":" << fx.form;
+        const std::pair<const char *, const Mask *> masks[] = {
+            {"cells", &fx.cells}, {"attacks", &fx.attacks}, {"buds", &fx.buds},
+            {"petals", &fx.petals}, {"wither", &fx.wither}, {"health", &fx.health},
+            {"shield", &fx.shield}, {"impact", &fx.impact}, {"links", &fx.links}};
+        for (const auto &item : masks) {
+            out << ",\"" << item.first << "\":";
+            cellsJson(out, *item.second);
+        }
+        out << '}';
+    }
+    out << "],\"movements\":[";
+    bool comma = false;
+    for (const auto &motion : sprites::visibleMovements(before, v, line->kind)) {
+        if (motion.unit / 2 != v.player) continue;
+        if (comma) out << ',';
+        comma = true;
+        out << "{\"unit\":" << motion.unit << ",\"piece\":" << motion.piece
+            << ",\"from\":" << motion.from << ",\"to\":" << motion.to
+            << ",\"style\":" << int(motion.style) << ",\"path\":[";
+        for (std::size_t i = 0; i < motion.path.size(); ++i) {
+            if (i) out << ',';
+            out << '[' << motion.path[i].column << ',' << motion.path[i].row << ']';
+        }
+        out << "]}";
+    }
+    out << "]}";
+}
 void viewJson(std::ostream &out, const View &v, bool historical = false) {
     out << "{\"player\":" << v.player << ",\"turn\":" << v.turn << ",\"inputPlayer\":" << inputPlayer(v)
         << ",\"winner\":" << v.winner << ",\"revision\":" << v.revision << ",\"round\":" << v.roundNumber
@@ -123,21 +196,25 @@ void viewJson(std::ostream &out, const View &v, bool historical = false) {
     for (std::size_t i=start;i<v.notices.size();++i) {
         if(i!=start) out << ',';
         const auto &n=v.notices[i];
-        out << "{\"revision\":" << n.revision << ",\"text\":" << quoted(n.text) << ",\"weight\":" << n.weight << '}';
+        out << "{\"revision\":" << n.revision << ",\"text\":" << quoted(n.text)
+            << ",\"weight\":" << n.weight << ",\"feedback\":" << (n.feedback ? "true" : "false") << '}';
     }
     out << "],\"actions\":[";
     if(!historical) {
         auto legal=actions(v);
         for(std::size_t i=0;i<legal.size();++i) {if(i) out << ',';action(out,legal[i]);}
     }
-    out << "]}";
+    out << "],\"presentation\":";
+    if (historical) out << "null";
+    else presentationJson(out, v);
+    out << '}';
 }
 void require(bool valid) {if (!valid) throw std::runtime_error("invalid request");}
 void catalog(std::ostream &out) {
     const char *portraits[]={"jin","wolf","ink","shadow","heavy","hidden-wolf","knight","alpha","armiger","flamer-display","wall-guard","prince","sword"};
     const char *sprites[]={"jin","wolf","ink","shadow","heavy","hidden-wolf","knight","alpha","armiger","flamer","wall-guard","prince","sword"};
     const char *kinds[]={"移动","普通攻击","侦察一行","侦察一列","炫空斗舞","附骨跟随","附骨带动","冲锋","切换形态","日字移动","游猎·倾轧","游猎·沉默","游猎·挥劈","挥劈并突进","游猎·退避","筑堡","筑墙","攻击并突进","嗜血","披甲","卸甲","直刺","离火","火步","攻击后移动","拆除","投降","分担","附骨模式","种植玫瑰","玫瑰之吻","剑刺","飞剑","回剑","攻击后移动","结束回合"};
-    out << "{\"ok\":true,\"version\":\"1.1.8-web.1\",\"roles\":[";
+    out << "{\"ok\":true,\"version\":\"1.1.8-web.2\",\"roles\":[";
     for(int i=0;i<13;++i) {
         if(i) out << ',';
         auto r=Role(i);

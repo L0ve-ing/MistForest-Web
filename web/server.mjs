@@ -152,7 +152,7 @@ function limit(req) {
   if(!bucket||now-bucket.at>10000){bucket={at:now,count:0};buckets.set(key,bucket);}
   if(++bucket.count>120)throw fail('操作过于频繁，请稍后再试。',429);
 }
-const types={'.html':'text/html; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.ico':'image/x-icon'};
+const types={'.html':'text/html; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.png':'image/png','.svg':'image/svg+xml','.ico':'image/x-icon'};
 async function staticFile(res,url) {
   const asset=url.pathname.startsWith('/assets/');
   const base=path.join(root,asset?'src/assets':'web/public');

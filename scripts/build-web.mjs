@@ -7,7 +7,7 @@ const bin=path.join(root,'build-web');
 await mkdir(bin,{recursive:true});
 const target=path.join(bin,process.platform==='win32'?'referee.exe':'referee');
 const args=['-std=c++17','-O2','-Wall','-Wextra','-Werror','-pedantic','-finput-charset=UTF-8',
-  'web/referee.cpp','src/game.cpp','src/damage.cpp','-o',target];
+  'web/referee.cpp','src/game.cpp','src/damage.cpp','src/presentation/skill_fx.cpp','-o',target];
 if(process.platform==='win32') args.push('-static','-static-libgcc','-static-libstdc++');
 let compiler=process.env.CXX||'g++';
 if(process.platform==='win32'&&!process.env.CXX) {

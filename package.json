@@ -1,6 +1,6 @@
 {
   "name": "mistforest-web",
-  "version": "1.1.8-web.1",
+  "version": "1.1.8-web.2",
   "private": true,
   "type": "module",
   "engines": {"node": ">=22"},
