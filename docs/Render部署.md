@@ -1,12 +1,14 @@
 # Render 部署
 
-本仓库提供 Render 免费试运行配置，使用现有 Dockerfile 编译原版 C++ 裁判，并运行 Node.js 网页服务。没有第三方 npm 依赖，也不需要额外数据库。首次部署仍需检查 Linux 构建、页面、SSE 推送和完整联机对局。
+本仓库提供 Render 免费试运行配置，使用现有 Dockerfile 编译原版 C++ 裁判，并运行 Node.js 网页服务。没有第三方 npm 依赖，也不需要额外数据库。
+
+当前公网地址为 https://mistforest-web.onrender.com。2026-11-04 已通过 15 项公网接口检查，包括建房、加入、秘密部署、真实攻击终局、SSE 同步和重开；31 张原版 PNG 加载正常。该检查来自一台外部电脑，不代表不同网络双设备浏览器或手机真机已完成验收。
 
 ## 推荐：从 Blueprint 创建
 
 可直接点击[一键部署到 Render](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FL0ve-ing%2FMistForest-Web%2Ftree%2Fcodex%2Frender-deploy-20261104)，使用预设的免费配置。
 
-在 Render 控制台选择 New → Blueprint，连接 GitHub 私有仓库 `MistForest-Web`，选择分支 `codex/render-deploy-20261104`，使用仓库根目录的 `render.yaml`。
+在 Render 控制台选择 New → Blueprint，连接 GitHub 仓库 `MistForest-Web`，选择分支 `codex/render-deploy-20261104`，使用仓库根目录的 `render.yaml`。
 
 配置为新加坡区域、Free 套餐、单实例、最多 4 个房间，健康检查地址 `/api/health`。提交前确认仍是 Free，且没有添加付费资源。若连接私有仓库需要 GitHub 授权，由仓库所有者在页面完成。
 
