@@ -214,7 +214,7 @@ void catalog(std::ostream &out) {
     const char *portraits[]={"jin","wolf","ink","shadow","heavy","hidden-wolf","knight","alpha","armiger","flamer-display","wall-guard","prince","sword"};
     const char *sprites[]={"jin","wolf","ink","shadow","heavy","hidden-wolf","knight","alpha","armiger","flamer","wall-guard","prince","sword"};
     const char *kinds[]={"移动","普通攻击","侦察一行","侦察一列","炫空斗舞","附骨跟随","附骨带动","冲锋","切换形态","日字移动","游猎·倾轧","游猎·沉默","游猎·挥劈","挥劈并突进","游猎·退避","筑堡","筑墙","攻击并突进","嗜血","披甲","卸甲","直刺","离火","火步","攻击后移动","拆除","投降","分担","附骨模式","种植玫瑰","玫瑰之吻","剑刺","飞剑","回剑","攻击后移动","结束回合"};
-    out << "{\"ok\":true,\"version\":\"1.1.8-web.2\",\"roles\":[";
+    out << "{\"ok\":true,\"version\":\"1.1.8-web.3\",\"roles\":[";
     for(int i=0;i<13;++i) {
         if(i) out << ',';
         auto r=Role(i);
