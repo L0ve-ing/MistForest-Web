@@ -36,7 +36,7 @@ export class Presentation {
     this.frames=new Map();this.nodes=[];this.queue=[];this.active=null;this.cells=new Map();
     this.full=localStorage.getItem('mistforest-animation')!=='simple'&&!matchMedia('(prefers-reduced-motion: reduce)').matches;
     this.speed=Number(localStorage.getItem('mistforest-animation-speed'))||1;
-    this.epoch=-1;this.seen=-1;this.scene='';this.failed=false;this.lastTick=0;
+    this.epoch=-1;this.seen=-1;this.scene='';this.failed=false;this.lastTick=0;this.dirty=true;
     this.ready=this.load();
     document.addEventListener('visibilitychange',()=>{
       if(document.hidden){cancelAnimationFrame(this.raf);this.raf=null;this.skip();}
@@ -61,7 +61,7 @@ export class Presentation {
     if(!this.images.has(url)){
       const image=new Image();image.decoding='async';
       const entry={image,loaded:false};this.images.set(url,entry);
-      image.onload=()=>{entry.loaded=true;this.schedule();};
+      image.onload=()=>{entry.loaded=true;this.dirty=true;this.schedule();};
       image.onerror=()=>{this.failed=true;this.onChange?.();};image.src=url;
     }
     return this.images.get(url);
@@ -113,7 +113,7 @@ export class Presentation {
   skip(){const wasBusy=this.busy();this.reset();if(wasBusy)this.onChange?.();}
   attach(root,context){
     this.root=root;this.context=context;if(!root)return;
-    this.nodes=[...root.querySelectorAll('[data-actor-sprite]')];
+    this.nodes=[...root.querySelectorAll('[data-actor-sprite]')];this.dirty=true;
     this.canvas=root.querySelector('.battle-effects');this.ctx=this.canvas?.getContext('2d');
     this.measure();
     const signature=context?.state?`${context.state.epoch}:${context.state.phase}`:'lobby';
@@ -142,8 +142,10 @@ export class Presentation {
     this.raf=null;if(document.hidden)return;
     const active=this.active,elapsed=active?now-active.started:0;
     if(active&&elapsed>=active.duration){this.start();this.onChange?.();}
-    if(now-this.lastTick>=50){
-      this.lastTick=now;this.animateActors(now);this.draw(now);
+    // Resource completion and fresh DOM need one paint even inside the animation
+    // throttle window; reduced mode has no idle loop to retry a skipped paint.
+    if(this.dirty||now-this.lastTick>=50){
+      this.dirty=false;this.lastTick=now;this.animateActors(now);this.draw(now);
       if(this.active){
         const phase=Math.floor((now-this.active.started-this.active.lead)/this.active.phaseDuration);
         if(phase!==this.active.phase){this.active.phase=phase;queueMicrotask(()=>this.onChange?.());}
